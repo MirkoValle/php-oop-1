@@ -1,0 +1,32 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    background-color: bisque;
+    width: 30rem;
+    
+}
+
+h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p{
+    font-size: 1.5rem;
+}
